@@ -1,0 +1,21 @@
+{
+    "name": "dpool/typo3-gitlab-ci",
+	"require": {
+		"php": "7.2",
+		"helhum/dotenv-connector": "^2.0.1",
+		"helhum/typo3-console": "^5.0.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dpool\\Typo3GitlabCi\\": "src/Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms"
+		},
+		"helhum/typo3-console": {
+			"install-extension-dummy": false
+		}
+	}
+}
