@@ -1,9 +1,7 @@
 {
     "name": "dpool/typo3-gitlab-ci",
 	"require": {
-		"php": "7.2",
-		"helhum/dotenv-connector": "^2.0.1",
-		"helhum/typo3-console": "^5.0.3"
+		"php": "7.2"
 	},
 	"autoload": {
 		"psr-4": {
