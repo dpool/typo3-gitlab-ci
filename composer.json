@@ -10,5 +10,9 @@
 	},
 	"extra": {
 
+	},
+	"require": {
+		"helhum/dotenv-connector": "^2",
+		"helhum/typo3-console": "^5"
 	}
 }
