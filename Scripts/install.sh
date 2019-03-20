@@ -2,9 +2,10 @@
 
 ## make sure that standard folder is available
 [ -d gitlab-ci-scripts ] || mkdir gitlab-ci-scripts
+[ -d public/typo3conf/ ] || mkdir -p public/typo3conf/
 
 ## copy additional configuration for TYPO3
-cp vendor/dpool/typo3-gitlab-ci/Scaffolding/AdditionalConfiguration.php public/typo3conf/
+cp vendor/dpool/typo3-gitlab-ci/Scaffolding/AdditionalConfiguration.php public/typo3conf/AdditionalConfiguration.php
 
 ## create .env file
 cp vendor/dpool/typo3-gitlab-ci/Scaffolding/.env-example .env

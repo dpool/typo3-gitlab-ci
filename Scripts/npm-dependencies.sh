@@ -1,5 +1,5 @@
 npm install gulp@4.0.0
-npm install gulp-clean-css@4.0.
+npm install gulp-clean-css@4.0.0
 npm install gulp-concat@2.6.1
 npm install gulp-sass@4.0.2
 npm install gulp-uglify@3.0.2
