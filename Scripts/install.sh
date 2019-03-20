@@ -10,6 +10,7 @@ cp vendor/dpool/typo3-gitlab-ci/Scaffolding/AdditionalConfiguration.php public/t
 
 ## create .env file
 cp vendor/dpool/typo3-gitlab-ci/Scaffolding/.env-example .env
+cp vendor/dpool/typo3-gitlab-ci/Scaffolding/.gitignore .gitignore
 
 ## symlink the CI/CD yml configuration
 ln -s vendor/dpool/typo3-gitlab-ci/Configuration/.gitlab-ci.yml .gitlab-ci.yml
