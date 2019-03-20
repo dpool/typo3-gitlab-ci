@@ -30,5 +30,9 @@ else
     ## copy npm infrastructure
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/package.json package.json
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/Gulpfile.js Gulpfile.js
+
+    ## install node packages
+    sh vendor/dpool/typo3-gitlab-ci/Scripts/npm-dependencies.sh
+
     touch .installed
 fi
