@@ -1,0 +1,13 @@
+.idea
+._*
+.DS*
+
+var/*
+vendor/*
+
+public/*
+!public/typo3conf
+public/typo3conf/*
+!public/typo3conf/ext
+public/typo3conf/ext/*
+!public/typo3conf/ext/website
