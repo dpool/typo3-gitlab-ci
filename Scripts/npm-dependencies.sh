@@ -1,0 +1,9 @@
+npm install gulp@^3.9.1
+npm install gulp-clean-css@^3.9.1
+npm install gulp-concat@^3.9.1
+npm install gulp-sass@^3.9.1
+npm install gulp-uglify@^3.9.1
+npm install gulp@^3.9.1
+npm install bootstrap@^4.3.1
+npm install jquery@^3.3.1
+npm install popper.js@^1.14.7
