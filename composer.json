@@ -5,7 +5,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Dpool\\Typo3GitlabCi\\": "src/Classes/"
+			"Dpool\\Typo3GitlabCi\\": "Classes/"
 		}
 	},
 	"extra": {
