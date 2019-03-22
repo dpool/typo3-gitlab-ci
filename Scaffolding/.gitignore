@@ -1,6 +1,10 @@
 .idea
 ._*
 .DS*
+.env
+.installed
+
+node_modules
 
 var/*
 vendor/*
