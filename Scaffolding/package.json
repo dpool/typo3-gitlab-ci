@@ -1,6 +1,9 @@
 {
   "name": "dpool-standard-package",
   "version": "1.0.0",
+  "description": "dpool standard package",
+  "repository": "",
+  "license": "",
   "dependencies": {
   }
 }

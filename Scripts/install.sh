@@ -4,6 +4,9 @@ if [ -f .installed ]; then
     ## install node packages
     sh vendor/dpool/typo3-gitlab-ci/Scripts/npm-dependencies.sh
 
+    ## copy the CI/CD yml configuration
+    cp vendor/dpool/typo3-gitlab-ci/Configuration/.gitlab-ci.yml .gitlab-ci.yml
+
 else
     ## make sure that standard folder is available
     [ -d gitlab-ci-scripts ] || mkdir gitlab-ci-scripts
@@ -17,8 +20,8 @@ else
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/.env-example .env
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/.gitignore .gitignore
 
-    ## symlink the CI/CD yml configuration
-    ln -s vendor/dpool/typo3-gitlab-ci/Configuration/.gitlab-ci.yml .gitlab-ci.yml
+    ## copy the CI/CD yml configuration
+    cp vendor/dpool/typo3-gitlab-ci/Configuration/.gitlab-ci.yml .gitlab-ci.yml
 
     ## copy empty files for customising of CI/CD processes in an individual project
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/after-composer.sh gitlab-ci-scripts/after-composer.sh
