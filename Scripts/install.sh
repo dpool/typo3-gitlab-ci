@@ -7,7 +7,7 @@ if [ -f .installed ]; then
     ## copy the CI/CD yml configuration
     cp vendor/dpool/typo3-gitlab-ci/Configuration/.gitlab-ci.yml .gitlab-ci.yml
     ## copy gulp setup
-    cp vendor/dpool/typo3-gitlab-ci/Gulp/gulpfile.js gulpfile.js
+    cp vendor/dpool/typo3-gitlab-ci/Gulp/Gulpfile.js Gulpfile.js
     cp vendor/dpool/typo3-gitlab-ci/Gulp/package.json package.json
 
 else
