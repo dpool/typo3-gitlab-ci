@@ -11,7 +11,7 @@ var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 var rename = require('gulp-rename');
 
-var config = require('../../../../gulp-config');
+var config = require('../../../../../gulp-config');
 
 
 /*

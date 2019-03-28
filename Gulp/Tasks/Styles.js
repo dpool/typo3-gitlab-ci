@@ -13,7 +13,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var rename = require('gulp-rename');
 
-var config = require('../../../../gulp-config');
+var config = require('../../../../../gulp-config');
 
 
 /*
