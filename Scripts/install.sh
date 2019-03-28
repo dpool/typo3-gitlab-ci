@@ -6,6 +6,9 @@ if [ -f .installed ]; then
 
     ## copy the CI/CD yml configuration
     cp vendor/dpool/typo3-gitlab-ci/Configuration/.gitlab-ci.yml .gitlab-ci.yml
+    ## copy gulp setup
+    cp vendor/dpool/typo3-gitlab-ci/Gulp/gulpfile.js gulpfile.js
+    cp vendor/dpool/typo3-gitlab-ci/Gulp/package.json package.json
 
 else
     ## make sure that standard folder is available
@@ -22,6 +25,9 @@ else
 
     ## copy the CI/CD yml configuration
     cp vendor/dpool/typo3-gitlab-ci/Configuration/.gitlab-ci.yml .gitlab-ci.yml
+    ## copy gulp setup
+    cp vendor/dpool/typo3-gitlab-ci/Gulp/gulpfile.js gulpfile.js
+    cp vendor/dpool/typo3-gitlab-ci/Gulp/package.json package.json
 
     ## copy empty files for customising of CI/CD processes in an individual project
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/after-composer.sh gitlab-ci-scripts/after-composer.sh
