@@ -31,8 +31,9 @@ else
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/rsync-deploy-excludes.txt gitlab-ci-scripts/rsync-deploy-excludes.txt
 
     ## copy npm infrastructure
+    ln -s vendor/dpool/typo3-gitlab-ci/Gulp/Gulpfile.js Gulpfile.js
     cp vendor/dpool/typo3-gitlab-ci/Scaffolding/package.json package.json
-    cp vendor/dpool/typo3-gitlab-ci/Scaffolding/Gulpfile.js Gulpfile.js
+    cp vendor/dpool/typo3-gitlab-ci/Scaffolding/gulp-config.js gulp-config.js
 
     ## install node packages
     sh vendor/dpool/typo3-gitlab-ci/Scripts/npm-dependencies.sh
